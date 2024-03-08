@@ -1,9 +1,8 @@
 # PROBLEM STATEMENT 
 
-(a.) As a first step, read images stored in a Block RAM into a buffer, and display it on a VGA monitor at different corners of the VGA after a certain delay. You should be able 
-to find the VGA interfacing code. 
+(a.) As a first step, read images stored in a Block RAM into a buffer and display them on a VGA monitor at all 4 corners.
 
-(b.) Apply image transformation techniques (these techniques can use the bit serial multiplier and bit parallel multiplier) to the captured image, display it on VGA
+(b.) Apply image transformation techniques to the captured image and display the transformed image on VGA.
 
 # INTRODUCTION
 
@@ -54,14 +53,7 @@ Adhering to VGA standards is essential for compatibility with a wide range of mo
 * Programming the FPGA: Program the synthesized bitstream onto the FPGA board. 
 * Monitor Connection: Connect the FPGA board's VGA output to a VGA monitor or display device.
 
-  
-## Techniques Used for Image Transformation: 
-* Bit-Serial Multiplier: Processes binary numbers one bit at a time, suitable for pixel-wise operations like brightness adjustment. 
-* Bit-Parallel Multiplier: Performs parallel multiplication of binary numbers, efficient for complex image processing operations like convolution. 
-* Integration with VGA: Integrating bit-serial or bit-parallel multipliers with VGA involves interfacing with VGA timing and color signal generation. Considerations include
-  memory management, synchronization, timing, and testing for accurate image transformation and display it.
-
-## VERILOG CODE OF VGA EXTRACTING RESULTS FROM BIT PARALLEL TECHNIQUE
+## VERILOG CODE OF VGA
 
 ```
 
@@ -687,7 +679,7 @@ explore diverse visual interpretations at each corner of the VGA display, making
 * Dr. Nanditha Rao, Course Professor
 * Jay Shah, TA for Project
 * Akhil Asati, Partner for this Project
-* Nancy and Shivangi, IIITB Colleagues provided Bit_Serial_Technique_Results
+
 
 # References
 
