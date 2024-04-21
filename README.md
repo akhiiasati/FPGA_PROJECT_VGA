@@ -414,9 +414,8 @@ end
 
 ```
 
-# PARALLEL BIT MULTIPLIER VERILOG CODE
+# Color Averaging
 
-## Submodule1: Edge Detection at Threshold=200
   
 ```
 module bit_parallel_multiplier( 
@@ -569,17 +568,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports mode]
 set_property PACKAGE_PIN R2 [get_ports mode]
 ```
 
-## Post Implementation Schematic
 
-## Power Utilisation
-
-## Resource Utilisation
-
-## Timing Report
-
-## Critical Path
-
-## Floorplan
 
 
 ## Image Output Explanation
@@ -604,7 +593,7 @@ explore diverse visual interpretations at each corner of the VGA display, making
 
 
 
-# Output Images By Bit Parallel Multiplication Techniques
+# Outputs
 
 ## Original Image on Bottom-Right Corner of Screen
 
